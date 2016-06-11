@@ -1,0 +1,296 @@
+/*******************************************************************************************************************************
+
+
+
+*******************************************************************************************************************************/
+body {background-color:#0c1a24;}
+/*******************************************************************************************************************************
+
+
+
+*******************************************************************************************************************************/
+header {border-bottom:3px solid #9c7409; padding:15px 20px;}
+header ul li {float: left; list-style: outside none none; padding-right: 5px;}
+.enrollitHeaderSignUp:before {color: #ccc;content: "|"; font-weight: bold; margin: 0 0.7rem;}
+/*******************************************************************************************************************************
+
+
+
+*******************************************************************************************************************************/
+.container {background-color:#fff; width:auto;}
+.containerAllPages {background-color: #c0bfbd;}
+.enrollitStudent, .enrollitParents, .enrollitSchool, .enrollitTutior {height:90px; opacity:0.70; margin-top: -50.8px; margin-bottom:25px; cursor: pointer;}
+.enrollitStudent {background-color:#f7861f;} 
+.enrollitParents {background-color:#c3e6e3;} 
+.enrollitSchool  {background-color:#8a847b;}
+.enrollitTutior  {background-color:#008a8b;}
+.enrollitBannerText {color:#FFF;}
+.enrollitBannerText h2 {margin-top:0px;}
+.enrollitBannerStuParSchImg img {display: block; margin-left: auto; margin-right: auto; width:30%; position: relative; z-index:1000;}
+.enrollitBannerText img {display: block; margin-left: auto; margin-right: auto; z-index:1000;}
+.enrollitBannerSearch .form-control, .enrollitBannerSearchListPageGrid .form-control {background-color:#f2f2f2; border: 3px solid #949392;}
+.enrollitBannerSearch .btn , .enrollitBannerSearchListPageGrid  .btnSubmit {color:#949392;  background-color:#f2f2f2; border-top: 3px solid #949392; font-size: 11px; border-right: 3px solid #949392; font-size: 11px;
+border-bottom: 3px solid #949392; font-size: 11px; padding:6px 45px 6px;}
+.btnApplyCompare {margin-top: 2px;
+    padding: 3px 5px !important;
+    width: 40%; 
+	background-color:#df9c03;}
+.enrollitCompareBtnApply  {background-color:#df9c03;}
+.enrollitBannerSearch {
+    margin-bottom: 25px;
+    padding: 10px;
+}
+.enrollitBannerSearchListPageGrid {
+	border-bottom: 3px solid #fff;
+    padding: 10px;
+}
+
+.enrollitFooter ul li {float: right; font-size: 30px; list-style: outside none none; padding-right: 20px;}
+.enrollitFooter li a.fbSprite {background: #3667c2 none repeat scroll 0 0; color: #fff;}
+.enrollitFooter li a.twitterSprite {background: #2dc1ff none repeat scroll 0 0; color: #fff;}
+.enrollitFooter li a.linkedinSprite {background: #fff none repeat scroll 0 0; color: #4d4d4d;}
+.enrollitFooter li a.youtubeSprite {background: #fd4040 none repeat scroll 0 0; color: #fff;}
+.enrollitFooter ul li a {border: medium none; border-radius: 0.4rem; bottom: 0; display: inline-block; font-size: 2.2rem;
+height: 2.8rem;left: 0;line-height: 2.8rem;padding: 0.2rem; text-align: center;top: 0; width: 2.8rem;}
+.enrollitFooter {padding: 10px 15px 12px 16px;}
+.panel, .panel-group .panel {border-radius: 0!important;}
+
+.lftPad-0 {padding-left:0 !important;}
+.lftPad-5 {padding-left:5px !important;}
+.lftPad-15 {padding-left:15px !important;}
+.lftMrg-8 {margin-left:8px !important;}
+.rgtPad-0 {padding-right:0 !important;}
+.rgtPad-5 {padding-right:5px !important;}
+.rgtPad-25 {padding-right:25px;}
+.rgtMrg25 {margin-right:25px;}
+.topMrg25 {margin-top:25px;}
+.btmMrg25 {margin-bottom:25px;}
+.whiteBg {background-color: #f2f0f1; padding-left: 0; padding-right: 0;}
+.width45 {
+    width: 4.5rem !important;
+}
+
+.productlist-lhs .acc-heading a.collapsed::after {
+    content: "+";
+}
+.table-responsive tr td {background-color: #fff;border-right: 1px solid #c0bfbd;}
+.table-responsive tr th {background-color:#c0bfbd;}
+.btn { color: #fff; font-size: 14px;padding: 5px 50px;}
+.btnApplyNow {background-color: #a29e9f;}
+.btnViewOnMap {background-color: #15334b;}
+.pagination-next-page {background: #c41230 none repeat scroll 0 0; color: #fff;}
+.pagination-prev-page, .pagination-next-page {border: 0 none; height: 2.8rem; padding: 0; width: 2.8rem;}
+.pagination-prev-page, .pagination-next-page {background: #b5b5b5 none repeat scroll 0 0; border: 0 none; height: 2.8rem; padding: 0; 
+width: 2.8rem;}
+.PaginationNav label {padding-left: 0.6rem; padding-right: 0.6rem;}
+.form-control {
+    font-size: 1.4rem;
+    line-height: 1.42857;
+}
+.enrollitTableList img {width:80px; height:80px; background-color:#fff; border:1px solid #f2f2f2; color:#c0bfbd; 
+text-align:center; padding:20px;}
+.selected {color:#0c1a24; font-weight:bold;}
+a {color:#546f82;}
+.enrollitViewWith a {font-size:30px;}
+.popUpLogin {border-radius: 0 !important; height: 350px !important; background-color:#9d740a !important; padding: 0 5px;}
+.popSignUpLogin {border-radius: 0 !important; background-color:#9d740a !important;}
+.btnSignUp {background-color:#0c1a24; border-radius:0; color:#ffffff; margin-bottom:25px;}
+.SignUpPanel{ border-bottom:1px solid #ffffff;}
+.enrollitPopUpImg img {display: block; margin-top: -60px; margin-right: auto; margin-bottom: 25px; margin-left: auto; z-index: 1000;}
+.enrollitPopUpSocialIcon {margin-bottom:25px; margin-top:25px;}
+.enrollitPopUpSocialIcon .enrollitPopUpSocialIconFacebook {border-radius:0; color:#ffffff; background-color:#182965; padding:5px;}
+.enrollitPopUpSocialIcon .enrollitPopUpSocialIconGoogle {border-radius:0; color:#ffffff; background-color:#c12315; padding:5px;}
+.popUpMap {border-radius: 0 !important; background-color:#9d740a !important;}
+.enroolitpopUpMap {width: 1100px; margin-top: 74px;} .enroolitSignUp {width: 500px; margin-top: 74px;} .enroolitLoginUp {width: 400px; margin-top: 94px;}
+.close {background: black none repeat scroll 0 0;border: 0.2rem solid #fff !important;border-radius: 2rem;color: #fff;font-size: 1.4rem;
+opacity: 1;padding: 0.1rem 0.3rem !important;z-index: 1000;}
+
+.enrollitTabText {
+    color: #202020;
+    font-size: 25px;
+    margin-top: -41px;
+    position: relative;
+    text-transform: uppercase;
+    top: 135px;
+    z-index: 1000;
+}
+.enrollitTableGridPanel .enrollitTableGridPanelColOne, .enrollitTableGridPanel .enrollitTableGridPanelColTwo, .enrollitTableGridPanel .enrollitTableGridPanelColThree {
+	background-color: #fcfafb;
+    border: 3px solid #f2f0f1;
+    padding: 5px 5px;}
+.enrollitSchoolImg { height:120px;  background-color:#fff; border:1px solid #f2f2f2; color:#c0bfbd; 
+text-align:center; padding:20px;}
+.enrollitTableGridHeading {padding: 15px 6px 3px; border-bottom: 3px solid #fff; margin-bottom:15px;}
+.enrollitNav ul li {
+    font-weight: bold;
+    padding-left: 70px;
+	margin-top: 10px;
+}
+.panelCol {background-color: #546f82 !important; border: none; color: #0c1a24 ;}
+.enrollitTableList, .enrollitTableGrid {
+    border-bottom: 3px solid #fff;
+}
+button.close {
+    position: sticky;
+    z-index: 1000;
+}
+.enroolitLoginUp button.close {
+    margin-right: -15px;
+    margin-top: -15px;
+}
+.enroolitSignUp button.close, .enroolitpopUpMap button.close {
+    margin-right: -15px;
+    margin-top: -16px;
+}
+.enrollitTableGrid {padding-bottom:25px;}
+.acc-title::after {
+    content: "-";
+    float: right;
+}
+.acc-title .collapsed::after {
+    content: "+";
+    float: right;
+}
+.enrollitViewWith a {
+    color: #ccc;
+    float: right;
+    margin-left: 10px;
+}
+iframe {
+    height: 350px;
+	margin-bottom:25px;
+}
+.filter-option > li {
+    list-style: outside none none;
+}
+.enrollitTableGridPanel .btn {margin-top:25px; padding: 3px 5px !important; width:48%;}
+.enrollitHeaderLogin > a, .enrollitHeaderSignUp > a {
+    font-size: 10px;
+}
+.enrollitBannerText h2 {
+    font-family: Nueva Std;
+    font-size: 24px;
+    margin-top: 0;
+}
+.enrollitNav a{color:#546f82; text-decoration: none;}
+.enrollitNav a:hover {color:#dda40a; text-decoration: none;}
+@media screen and (max-width: 768px) {
+.enrollitBannerStuParSchImg img {display: block; margin-left: auto; margin-right: auto; width:30%; position: relative; z-index:1000;}
+.enrollitTabText {top: 155px;}
+}
+.containerLeft {
+    position: absolute;
+    width: 82%;
+}
+.containerLeftChatHeader {
+    background: #f2f0f1 none repeat scroll 0 0;
+    color: #fff;
+}
+.containerRight {
+}
+.containerLeftChatSection {
+    background-color: #cdcdcd;
+    padding: 5px;
+}
+.containerRight {
+    position: fixed;
+    right: 0;
+    top: 64px;
+    width: 18%;
+}
+.containerLeftChatHeader > ul {
+    list-style: outside none none;
+    padding: 0;
+}
+.containerLeftChatHeader li {
+    border-bottom: 2px solid #eee;
+    padding: 20px 0 20px 10px;
+	color: #333;
+}
+.chatHeader {
+    background-color: #c0bfbd !important;
+}
+.chatSectionTop {
+    height: 305px;
+    overflow-y: scroll;
+}
+
+.enrollitNav ul {
+    background: #0c1a24 none repeat scroll 0 0;
+    border-radius: 0 0 25px 25px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+    opacity: 0.8;
+    outline: 0 none;
+    padding: 10px;
+}
+
+.enrollitNav ul li {
+    float: left;
+    font-weight: bold;
+    list-style: outside none none;
+    margin-top: 9px;
+    padding-left: 120px;
+}
+
+.enrollitNav {
+    background-color: #fff;
+}
+
+.enrollitGridAdd{height:130px;}
+
+
+p {
+}
+.enrollitCompareIMGtext {
+    text-align: center;
+}
+.enrollitFaCircleActive {
+    color: green;
+    font-size: 22px;
+}
+.table.enrollitCompareTable td {
+    text-align: center;
+}
+
+.enrollitCompareResult {
+    color: #fff;
+    display: inline;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.enrollitCompareContainerHeader {
+    background-color: #546f82;
+    margin-bottom: 5px;
+    padding: 10px;
+}
+
+.enrollitSchoolDetailImg {
+    height: 200px;
+}
+
+.brandingFlyr .carousel-control .fa-chevron-left {
+    margin: 105px 0 0 -105px;
+}
+
+.brandingFlyr .carousel-control .fa-chevron-right {
+    margin: 105px 0 0 105px;
+}
+
+.brandingFlyr {
+    height: 230px;
+    margin-bottom: 5px;
+    width: auto;
+}
+
+.rating { padding-right: 15px;}
+
+.ratingicon.glyphicon.glyphicon-star {
+    font-size: 20px !important;
+}
+
+@media screen and (max-width: 768px) {
+.containerLeft {
+    width: 100%;
+}
+}

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- TemplateBeginEditable name="TITLE" --><title> </title><!-- TemplateEndEditable -->
+
+<!-- Bootstrap -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/custom.css" rel="stylesheet">
+<link href="../css/font-awesome.min.css" rel="stylesheet">
+<link href="../css/font-awesome.css" rel="stylesheet">
+<!-- eoverriding the current bootstrap classes and ceating other reqired classes -->
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body>
+<!-- Website header row -->
+<header class="">
+  <div class="row">
+  <div class="col-lg-2 col-md-2 col-sm-2 col-xs-12"> <a title="Link to Home page" class="logo" href="index.html" itemprop="url"><img alt="logo" class="img-responsive" src="./images/logo.png" itemprop="logo"></a> </div>
+  <div class="col-lg-10 col-md-10 col-sm-10 col-xs-12">
+    <ul class="pull-right">
+      <li class="enrollitHeaderLogin"><a href="#" data-toggle="modal" data-target=".loginModal">Login</a> </li>
+      <li class="enrollitHeaderSignUp"><a href="#" data-toggle="modal" data-target=".signUPModal">Sign Up</a> </li>
+    </ul>
+  </div>
+</header>
+<!-- Body Content Row --> 
+
+<!-- loginUP -->
+<div class="modal fade loginModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm enroolitLoginUp">
+  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true" class="fa fa-close"></span><span class="sr-only">Close</span></button>
+    <div class="modal-content popUpLogin">
+      <div class="row enrollitPopUpImg"> <img class="img-responsive" src="images/logoPopUp.png" alt="..."> </div>
+      <div class="clearfix">
+        <div class="row">
+          <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <input type="text" placeholder="Email Address" class="form-control" id="EmailAddress">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+              <input type="text" placeholder="Password" class="form-control" id="Password">
+            </div>
+          </div>
+        </div>
+        <div class="clearfix">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 SignUpPanel">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12pull-left">
+                        <label for="rewards">
+                        <input type="checkbox" id="rewards">&nbsp;remember me</label>
+                      </div>
+            <button class="btn btnSignUp col-lg-6 col-md-6 col-sm-6 col-xs-12" type="button">Login Up</button>
+          </div>
+        </div>
+        <div class="clearfix">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 enrollitPopUpSocialIcon">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <button class="btn enrollitPopUpSocialIconFacebook col-lg-12" type="button">Facebook</button>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <button class="btn enrollitPopUpSocialIconGoogle col-lg-12 pull-right" type="button">Google+</button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- loginUP -->
+
+<!-- signUP -->
+<div class="modal fade col-lg-12 signUPModal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+  <div class="modal-dialog modal-sm enroolitSignUp">
+  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true" class="fa fa-close"></span><span class="sr-only">Close</span></button>
+    <div class="modal-content col-lg-12 popSignUpLogin">
+      <div class="row enrollitPopUpImg"> <img class="img-responsive" src="images/logoPopUp.png" alt="..."> </div>
+      <div class="clearfix">
+        <div class="row">
+          <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+              <input type="text" placeholder="First Name" class="form-control" id="FirstName">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+              <input type="text" placeholder="Last Name" class="form-control" id="LastName">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+              <input type="text" placeholder="Email Address" class="form-control" id="EmailAddress">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+              <input type="text" placeholder="+91 Mobile" class="form-control" id="Mobile">
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="form-group col-lg-12 col-md-12 col-sm-12 col-xs-12">
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+              <input type="text" placeholder="Password" class="form-control" id="Password">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+              <input type="text" placeholder="Confirm Password" class="form-control" id="ConfirmPassword">
+            </div>
+          </div>
+        </div>
+        <div class="clearfix">
+          <div class="col-lg-12 SignUpPanel">
+            <button class="btn btnSignUp col-lg-12" type="button">Sign Up</button>
+          </div>
+        </div>
+        <div class="clearfix">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 enrollitPopUpSocialIcon">
+          <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <button class="btn enrollitPopUpSocialIconFacebook col-lg-12" type="button">Facebook</button>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+            <button class="btn enrollitPopUpSocialIconGoogle col-lg-12 pull-right" type="button">Google+</button>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- signUP -->
+<!-- TemplateBeginEditable name="Page Content Section" --><section >Page Content Section </section><!-- TemplateEndEditable -->
+<!-- Footer -->
+<div class="clearfix">
+  <footer class="col-lg-12 col-md-12 col-sm-12 col-lg-12 enrollitFooter">
+      <div class="copyRightRow col-lg-6 col-md-6 col-sm-6 col-lg-12">
+        <p class="text-muted">© 2014 Enrollit.in | <a href="#">Site Map</a> | <a href="#">Privacy Policy & Legal Disclaimer</a></p>
+        </div>
+      <div class="col-lg-6 col-md-6 col-sm-6 col-lg-12">
+        <ul>          
+                     <li class="fbSprite rgtPad-0"><a class="fbSprite" href="https://facebook.com/enrollit"><i class="fa fa-facebook"></i></a></li>
+                    <li class="twitterSprite"><a class="twitterSprite" href="https://twitter.com/enrollit"><i class="fa fa-twitter"></i></a></li>
+                  <li class=" linkedinSprite"><a class="linkedinSprite" href="https://linkedin.com/company/enrollit"><i class="fa fa-linkedin"></i></a></li>
+                  <li class=" youtubeSprite"><a class="youtubeSprite" href="https://youtube.com/enrollit"><i class="fa fa-youtube"></i></a></li>      
+                </ul>
+      </div>
+  </footer>
+</div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+<script src="js/jquery-1.11.1.min.js"></script> 
+<!-- Include all compiled plugins (below), or include individual files as needed --> 
+<script src="js/bootstrap.min.js"></script> 
+<!-- TemplateBeginEditable name="Page Related Script" --> <!-- TemplateEndEditable -->
+</body>
+</html>
