@@ -1,5 +1,5 @@
 package com.enrollIt.models;
 
-public class LangaugeAvailable {
+public class LanguageAvailable {
 
 }

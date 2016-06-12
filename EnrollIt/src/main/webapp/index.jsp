@@ -87,7 +87,7 @@
                             <div class=
                             "col-lg-12 col-md-12 col-sm-12 col-xs-12">
                                 <input class="form-control" id="Password"
-                                placeholder="Password" type="text">
+                                placeholder="Password" type="password">
                             </div>
                         </div>
                     </div>
@@ -103,7 +103,7 @@
                             </div>
                             <button class=
                             "btn btnSignUp col-lg-6 col-md-6 col-sm-6 col-xs-12"
-                            type="button">Login Up</button>
+                            type="submit" formaction="loginAction">Login</button>
                         </div>
                     </div>
 
