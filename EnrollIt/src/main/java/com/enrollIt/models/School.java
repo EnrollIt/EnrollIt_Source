@@ -1,6 +1,13 @@
 package com.enrollIt.models;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class School {
+	@Id
+	String id;
+	String schoolName;
 	Address address;
 	int fees;
 	float rating;
@@ -64,6 +71,18 @@ public class School {
 	}
 	public void setStandards(StandardsAvailable standards) {
 		this.standards = standards;
+	}
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
+	}
+	public String getSchoolName() {
+		return schoolName;
+	}
+	public void setSchoolName(String schoolName) {
+		this.schoolName = schoolName;
 	}
 	
 	

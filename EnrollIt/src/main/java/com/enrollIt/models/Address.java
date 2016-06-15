@@ -1,15 +1,15 @@
 package com.enrollIt.models;
 
 public class Address {
-	private String pincode;
+	private int pincode;
 	private String area;
 	private String city;
 	private String state;
 	private String landmark;
-	public String getPincode() {
+	public int getPincode() {
 		return pincode;
 	}
-	public void setPincode(String pincode) {
+	public void setPincode(int pincode) {
 		this.pincode = pincode;
 	}
 	public String getArea() {
