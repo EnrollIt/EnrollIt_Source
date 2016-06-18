@@ -1,22 +1,40 @@
 package com.enrollIt.models;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.ManyToMany;
+import javax.persistence.OneToOne;
+
+import org.bson.types.ObjectId;
+
+
+
+
+
+
+
 
 @Entity
 public class School {
 	@Id
-	String id;
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+	private ObjectId id;
 	String schoolName;
+	@OneToOne(fetch = FetchType.LAZY,cascade = CascadeType.ALL)
 	Address address;
 	int fees;
-	float rating;
+	/*float rating;
 	SchoolFacilities facilities;
 	AdmissionDetails admissionDetails;
 	LanguageAvailable languageAvailable;
 	String imagePath;
 	String review;
-	StandardsAvailable standards;
+	StandardsAvailable standards;*/
+	
 	
 	public Address getAddress() {
 		return address;
@@ -30,24 +48,27 @@ public class School {
 	public void setFees(int fees) {
 		this.fees = fees;
 	}
-	public float getRating() {
+/*	public float getRating() {
 		return rating;
 	}
 	public void setRating(float rating) {
 		this.rating = rating;
 	}
+	@ManyToMany(fetch = FetchType.LAZY,cascade = CascadeType.ALL)
 	public SchoolFacilities getFacilities() {
 		return facilities;
 	}
 	public void setFacilities(SchoolFacilities facilities) {
 		this.facilities = facilities;
 	}
+	@ManyToMany(fetch = FetchType.LAZY,cascade = CascadeType.ALL)
 	public AdmissionDetails getAdmissionDetails() {
 		return admissionDetails;
 	}
 	public void setAdmissionDetails(AdmissionDetails admissionDetails) {
 		this.admissionDetails = admissionDetails;
 	}
+	@ManyToMany(fetch = FetchType.LAZY,cascade = CascadeType.ALL)
 	public LanguageAvailable getLanguageAvailable() {
 		return languageAvailable;
 	}
@@ -66,16 +87,17 @@ public class School {
 	public void setReview(String review) {
 		this.review = review;
 	}
+	@ManyToMany(fetch = FetchType.LAZY,cascade = CascadeType.ALL)
 	public StandardsAvailable getStandards() {
 		return standards;
 	}
 	public void setStandards(StandardsAvailable standards) {
 		this.standards = standards;
-	}
-	public String getId() {
+	}*/
+	public ObjectId getId() {
 		return id;
 	}
-	public void setId(String id) {
+	public void setId(ObjectId id) {
 		this.id = id;
 	}
 	public String getSchoolName() {

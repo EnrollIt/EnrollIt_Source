@@ -5,18 +5,18 @@
     <property name="hibernate.transaction.factory_class">org.hibernate.transaction.JDBCTransactionFactory</property>
     <property name="hibernate.current_session_context_class">thread</property>
     <property name="hibernate.ogm.datastore.provider">MONGODB</property>
-    <property name="hibernate.ogm.mongodb.database">rcfdb</property>
+    <property name="hibernate.ogm.datastore.database">EnrollIt</property>
+    <property name="hibernate.ogm.mongodb.database">EnrollIt</property>
     <property name="hibernate.ogm.mongodb.host">127.0.0.1</property>
     <property name="hibernate.ogm.mongodb.port">27017</property>
+    <property name="hibernate.ogm.datastore.create_database">true</property>
     
-    <property name="hibernate.search.default.directory_provider">filesystem</property>    
-    <property name="hibernate.search.default.indexBase">./Indexes</property>    
+    
+    <property name="hibernate.search.efault.directory_provider">filesystem</property>    
+    <property name="hibdernate.search.default.indexBase">./Indexes</property>    
     <property name="hibernate.search.default.locking_strategy">single</property>
-     
-
-   
-   
     
-    <mapping resource="hibernate-contact.hbm.xml"/>
+    <mapping class="com.enrollIt.models.School"/>
+    <mapping class="com.enrollIt.models.Address"/>
   </session-factory>
 </hibernate-configuration>

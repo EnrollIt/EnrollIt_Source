@@ -1,6 +1,18 @@
 package com.enrollIt.models;
 
+import javax.persistence.Embeddable;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+import org.bson.types.ObjectId;
+
+@Entity
 public class Address {
+	@Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+	private ObjectId id;
 	private int pincode;
 	private String area;
 	private String city;
@@ -9,6 +21,18 @@ public class Address {
 	public int getPincode() {
 		return pincode;
 	}
+	
+	
+	public ObjectId getId() {
+		return id;
+	}
+
+
+	public void setId(ObjectId id) {
+		this.id = id;
+	}
+
+
 	public void setPincode(int pincode) {
 		this.pincode = pincode;
 	}
