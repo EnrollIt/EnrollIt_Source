@@ -1,8 +1,9 @@
-package com.enrollIt.dao;
+package com.enrollIt.services;
 
 import com.enrollIt.models.School;
 
-public interface SchoolDao {
+public interface SchoolManager {
+	
 	public void addSchool(School school);
-
+	
 }
