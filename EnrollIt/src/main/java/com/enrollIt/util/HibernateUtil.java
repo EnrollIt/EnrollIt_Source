@@ -3,26 +3,26 @@ package com.enrollIt.util;
 import org.hibernate.SessionFactory;
 import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
 import org.hibernate.cfg.Configuration;
-import org.hibernate.ogm.cfg.OgmConfiguration;
 import org.hibernate.service.ServiceRegistry;
+import org.springframework.stereotype.Component;
 
 import com.enrollIt.models.Address;
 import com.enrollIt.models.School;
 
+/*
+ * Required for OGM only as session factory for orm is done via
+ * spring injection-autowired. 
+ */
 public class HibernateUtil {
+	
 	private static final SessionFactory sessionFactory;
 	static {
 		try {
-			Configuration configuration = new OgmConfiguration();
+		//This is for OGM
+			//Configuration configuration = new OgmConfiguration();
+			Configuration configuration = new Configuration();
 			configuration.configure();
-			configuration.addAnnotatedClass(School.class);
-			configuration.addAnnotatedClass(Address.class);
-			StandardServiceRegistryBuilder serviceRegistryBuilder = new StandardServiceRegistryBuilder();
-
-		    // If you miss the below line then it will complaing about a missing dialect setting
-		    serviceRegistryBuilder.applySettings(configuration.getProperties());
-		    ServiceRegistry serviceRegistry = serviceRegistryBuilder.build();
-		    sessionFactory = configuration.buildSessionFactory(serviceRegistry);
+		    sessionFactory = configuration.buildSessionFactory();
 		    
 		} catch (Throwable ex) {
 			System.err.println("Initial SessionFactory creation failed." + ex);

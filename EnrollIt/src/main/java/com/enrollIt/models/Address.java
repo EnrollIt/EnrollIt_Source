@@ -6,13 +6,12 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
-import org.bson.types.ObjectId;
 
 @Entity
 public class Address {
 	@Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-	private ObjectId id;
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+	private int id;
 	private int pincode;
 	private String area;
 	private String city;
@@ -23,12 +22,12 @@ public class Address {
 	}
 	
 	
-	public ObjectId getId() {
+	public int getId() {
 		return id;
 	}
 
 
-	public void setId(ObjectId id) {
+	public void setId(int id) {
 		this.id = id;
 	}
 
